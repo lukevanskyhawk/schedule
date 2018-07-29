@@ -17,6 +17,7 @@ class Library extends Component {
             return <LibraryCourse {...course} key={index} />
         })
     }
+
     render() {
         return (
             <div className="library">
